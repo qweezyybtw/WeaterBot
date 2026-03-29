@@ -70,7 +70,7 @@ def get_weather_by_city(city_name):
     except Exception:
         return '❌ Ошибка при получении погоды'
 
-    if 'weather' not in data:  # ← добавь эту проверку
+    if 'weather' not in data:
         return f'❌ Ошибка API: {data.get("message", "неизвестная ошибка")}'
 
     if data.get('cod') != 200:  # city not found
