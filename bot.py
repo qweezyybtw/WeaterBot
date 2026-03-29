@@ -7,7 +7,7 @@ TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 URL = 'https://api.openweathermap.org/data/2.5/weather'
-WEATHER_TOKEN = '7eddfa02d96c7a26d7c4a7b13848c023'
+WEATHER_TOKEN = ''
 
 def get_emoji(value, thresholds):
     for limit, emoji in thresholds:
