@@ -3,7 +3,7 @@ import telebot
 from telebot.types import KeyboardButton, ReplyKeyboardMarkup
 
 
-TOKEN = '8739271002:AAGik7n_a2cJN4M1jrHa3x2IszTdZjKTB4c'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 URL = 'https://api.openweathermap.org/data/2.5/weather'
